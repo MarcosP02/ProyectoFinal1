@@ -1,0 +1,241 @@
+/*Inicio  main*/
+.mainInicio{
+    background-color: lightslategray;
+
+}
+
+.h2Inicio{
+    background-color: lightslategray;
+    padding: map-get($map: $standard, $key:padding-standard );
+    text-align: map-get($map: $premium, $key:text-aling-premium );
+    font-size: 40px;
+}
+
+.h3Inicio{
+    background-color:lightgrey;   
+    color: blue;
+   padding: map-get($map: $premium, $key: padding-premium);
+   text-align: map-get($map: $premium, $key: text-aling-premium );
+   border-bottom: 2px solid white;
+
+}
+
+
+
+
+/*Contactos main*/
+
+.mainContactos{
+    background-color: gray;
+   display: grid;
+   grid-template-columns: auto auto;
+   width: 100%;
+   }
+  
+   
+   
+   .seccion1Contacto{
+       background-color: beige;
+       
+   }
+   .divContactos{
+       padding: 20px;
+       .h2Contactos{
+        font-size: 40px;
+        color: yellow;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+        
+    }
+   }
+   
+  
+   .pContactos{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+   
+   .formContactos{
+       width: 100%;
+        padding: 50px;
+   
+   }
+   
+     @media screen and (max-width:320px){   
+   .mainContactos{
+       width: 100%;
+           display: flex;
+           flex-wrap: wrap;
+   
+       }
+        
+         
+     }
+   
+   
+
+
+
+
+/*Nuestro Locales main*/
+.mainNuestros{
+    background-color: gray
+}
+.hNuestros{
+    @include colores(#3b472b,green);        
+    @include centrar(center);
+     padding: 20px;   
+    font-size: map-get($map: $standard, $key:font-size-standard );
+}
+.divImg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);       
+}
+.imgN{
+    width: 100%;
+}
+
+.pNuestros{
+    font-size: 20px;
+    color: rgb(0, 255, 128);
+}
+
+
+
+
+
+/*Nosotros main*/
+
+.mainNosotros{
+    background-color: grey
+}
+.h2Nosotros{
+    @include alinear(center);
+    @extend %botones2;
+    color: burlywood;
+    background-color: white;
+
+}
+
+.pNosotros{
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.p1Nosotros{
+    text-align: center;
+    font-size: 20px;
+    color: rgba(87, 87, 241, 0.719);
+}
+
+
+
+/*Productos main*/
+.mainProductos{
+    background-color: grey;
+}
+.h2Productos{
+    font-size: 30px;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+
+}
+.seccionProductos{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.seccionLimpieza{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 30px auto;
+        
+    }
+.seccionLimpieza :hover{
+
+       transform: scale(0.9);
+       width: 100%;
+
+}
+
+
+.divProductos{
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    justify-content:start   ;
+    
+}
+
+.divProductos :hover{
+    color: red;
+}
+
+@media screen and (max-width: 320px) {
+    
+        .seccionProductos
+        {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .seccionLimpieza{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+}
+
+.pProductos{
+  width: 100%;
+  color:white; 
+  font-size:40px;
+  text-align: start;
+  margin: 50px auto; 
+  text-decoration: none;
+
+}
+
+
+
+.p1Productos
+{
+    text-decoration: none;
+    text-align: end;
+    width: 100%;
+    color:white; 
+    font-size:40px;
+    margin: 50px auto; 
+}
+
+.img2{
+    display: flex;
+    justify-content: center;
+}
+
+.img2:hover{  
+ transform: scale(1.1);
+
+}
+
+
+
+
+
+
+
+
+
+

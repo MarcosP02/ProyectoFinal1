@@ -1,0 +1,55 @@
+
+.footerInicio{
+   background-color:  rgb(29, 173, 240);;
+   display: flex;
+   justify-content: space-between;
+
+.footer1Inicio{
+ 
+   width: 30%;
+}
+}
+ /*foooter Contacto*/
+
+ .footerContacto{
+    background-color: rgb(243, 226, 132);
+   display: flex;
+   justify-content: space-between;
+
+.footer1Contacto{
+   width: 30%;
+}
+}
+
+/*Nuestro Locales*/
+.footerNuestros{
+    background-color: green;
+   display: flex;
+   justify-content: space-between;
+
+.footer1Nuestros{
+   width: 30%;
+}
+}         
+         
+      
+/*Nosotros*/
+.footerNosotros{
+   display: flex;
+   justify-content: space-between;
+
+.footer1Nosotros{
+   width: 30%;
+}
+}
+    
+/*Productos*/
+.footerProductos{
+  background-color: cornflowerblue;
+   display: flex;
+   justify-content: space-between;
+
+   .footer1Productos{
+      width: 30%;
+    }
+}
